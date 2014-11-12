@@ -7,7 +7,6 @@ import com.mashape.unirest.http.exceptions.UnirestException;
 
 /**
  * Distributed cache service
- * 
  */
 public class DistributedCacheService implements CacheServiceInterface {
     private final String cacheServerUrl;
@@ -36,7 +35,7 @@ public class DistributedCacheService implements CacheServiceInterface {
 
     /**
      * @see edu.sjsu.cmpe.cache.client.CacheServiceInterface#put(long,
-     *      java.lang.String)
+     * java.lang.String)
      */
     @Override
     public void put(long key, String value) {
